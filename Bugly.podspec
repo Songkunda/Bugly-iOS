@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "SKDBugly"
+  s.name         = "Bugly"
   s.version      = "2.0.0"
   s.summary      = "Bugly iOS SDK"
   s.description  = "腾讯pod更新太慢 只好自己写喽.... 和TX的Bugly一样就是从官网当下来的自己使用"
