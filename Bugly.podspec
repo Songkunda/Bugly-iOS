@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name         = "Bugly"
-  s.version      = "1.4.8"
+  s.name         = "SKDBugly"
+  s.version      = "2.0.0"
   s.summary      = "Bugly iOS SDK"
-  s.description  = "iOS library for Bugly Crash Report Service"
+  s.description  = "腾讯pod更新太慢 只好自己写喽.... 和TX的Bugly一样就是从官网当下来的自己使用"
   s.homepage     = "http://bugly.qq.com/"
   s.license      = { :type => "Copyright", :text => "©2016 Tencent.com"}
   s.author       = { "Tencent" => "bugly@tencent.com" }
-  s.source       = { :http => "http://softfile.3g.qq.com/myapp/buglysdk/Bugly-1.4.8.zip" }
+  s.source       = { :http => "https://raw.githubusercontent.com/Songkunda/Bugly-iOS/master/release/Bugly-2.0.0.zip" }
   s.requires_arc = false  
   s.platform     = :ios
   s.ios.deployment_target = '7.0'

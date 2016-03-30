@@ -1,6 +1,6 @@
 # Bugly iOS SDK 接入指南
 
-## 1. SDK 集成
+##  SDK 集成
 
 Bugly 提供两种集成 SDK 方式供 iOS 开发者选择
 
@@ -8,13 +8,13 @@ Bugly 提供两种集成 SDK 方式供 iOS 开发者选择
 
 * 手动集成 
 
-### 1.1 CocoaPods 集成方式
+### 0X00 CocoaPods 集成方式
 
 在工程的 **Podfile** 里面添加以下代码
 
 ```ruby
 
-pod 'Bugly'
+pod 'SKDBugly'
 
 ```
 
@@ -22,7 +22,7 @@ pod 'Bugly'
 
 关于`CocoaPods`的更多信息请查看 [CocoaPods官方网站](https://cocoapods.org "CocoaPods") 
 
-### 1.2 手动集成方式
+### 0x01 手动集成方式
 
 * 下载并解压 [iOS SDK](http://bugly.qq.com/whitebook "iOS SDK") 
 * 拖拽`Bugly_libc++`目录下的`Bugly.framework`文件到 Xcode 工程内 （请勾选`Copy items if needed`选项）
