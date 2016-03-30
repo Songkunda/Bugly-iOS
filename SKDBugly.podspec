@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.requires_arc = false  
   s.platform     = :ios
   s.ios.deployment_target = '7.0'
-  s.vendored_frameworks ='SKDBugly.framework'
-  s.source_files = 'SKDBugly.framework/Headers/*.h'
+  s.vendored_frameworks ='Bugly.framework'
+  s.source_files = 'Bugly.framework/Headers/*.h'
   s.frameworks = 'SystemConfiguration','Security','JavaScriptCore'
   s.library = 'c++','z'
   s.license      = {
